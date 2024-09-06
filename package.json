@@ -1,0 +1,20 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "shortCode": "321safEx",
+  "redirectUrl": "http://localhost:3000/321safEx",
+  "dependencies": {
+    "express": "^4.19.2",
+    "redis": "^4.7.0",
+    "uuid": "^10.0.0",
+    "valid-url": "^1.0.9"
+  }
+}
